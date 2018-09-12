@@ -19,7 +19,7 @@ ext {
     siteUrl = 'https://github.com/memtrip/mxandroid'
     gitUrl = 'https://github.com/memtrip/mxandroid.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'samkirton'
     developerName = 'Samuel Kirton'

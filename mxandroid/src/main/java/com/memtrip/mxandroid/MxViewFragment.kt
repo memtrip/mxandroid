@@ -61,7 +61,4 @@ abstract class MxViewFragment<VI : MxViewIntent, RA : MxRenderAction, VS : MxVie
     abstract fun model(): MxViewModel<VI, RA, VS>
 
     abstract fun render(): MxViewRenderer<VL, VS>
-
-    protected inline fun <reified T : ViewModel> getViewModel(viewModelFactory: ViewModelProvider.Factory): T =
-            ViewModelProviders.of(this, viewModelFactory)[T::class.java]
 }
